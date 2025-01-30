@@ -1,0 +1,21 @@
+version: '3'
+services:
+  database:
+    # image: postgres
+    image: postgis/postgis
+    ports:
+      - '5432:5432'
+    environment:
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=upwork_sample_db
+    volumes:
+      # - db:/var/lib/postgresql/data
+      - gisdb:/var/lib/postgresql/data
+
+      
+volumes:
+  # db:
+  #   driver: local
+  gisdb:
+    driver: local

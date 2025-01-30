@@ -1,0 +1,127 @@
+[
+  {
+    "name": "Nepal",
+    "code": "+977",
+    "provinces": [
+      {
+        "name": "Province No. 1",
+        "districts": [
+          "Taplejung",
+          "Panchthar",
+          "Ilam",
+          "Jhapa",
+          "Morang",
+          "Sunsari",
+          "Dhankuta",
+          "Terhathum",
+          "Sankhuwasabha",
+          "Bhojpur",
+          "Solukhumbu",
+          "Okhaldhunga",
+          "Khotang",
+          "Udayapur"
+        ],
+        "state_no": 1
+      },
+      {
+        "name": "Madhesh",
+        "districts": [
+          "Saptari",
+          "Siraha",
+          "Dhanusa",
+          "Mahottari",
+          "Sarlahi",
+          "Bara",
+          "Parsa",
+          "Rautahat"
+        ],
+        "state_no": 2
+      },
+      {
+        "name": "Bagmati",
+        "districts": [
+          "Sindhuli",
+          "Ramechhap",
+          "Dolakha",
+          "Sindhupalchok",
+          "Kavrepalanchok",
+          "Lalitpur",
+          "Bhaktapur",
+          "Kathmandu",
+          "Nuwakot",
+          "Rasuwa",
+          "Dhading",
+          "Makwanpur",
+          "Chitwan"
+        ],
+        "state_no": 3
+      },
+      {
+        "name": "Gandaki",
+        "districts": [
+          "Gorkha",
+          "Lamjung",
+          "Tanahun",
+          "Syangja",
+          "Kaski",
+          "Manang",
+          "Mustang",
+          "Myagdi",
+          "Nawalpur",
+          "Parbat",
+          "Baglung"
+        ],
+        "state_no": 4
+      },
+      {
+        "name": "Lumbini",
+        "districts": [
+          "Gulmi",
+          "Palpa",
+          "Parasi",
+          "Rupandehi",
+          "Kapilvastu",
+          "Arghakhanchi",
+          "Pyuthan",
+          "Rolpa",
+          "Eastern Rukum",
+          "Banke",
+          "Bardiya",
+          "Dang"
+        ],
+        "state_no": 5
+      },
+      {
+        "name": "Karnali",
+        "districts": [
+          "Western Rukum",
+          "Salyan",
+          "Surkhet",
+          "Dailekh",
+          "Jajarkot",
+          "Dolpa",
+          "Jumla",
+          "Kalikot",
+          "Mugu",
+          "Humla"
+        ],
+        "state_no": 6
+      },
+      {
+        "name": "Sudurpashchim",
+        "districts": [
+          "Bajura",
+          "Bajhang",
+          "Achham",
+          "Doti",
+          "Kailali",
+          "Kanchanpur",
+          "Dadeldhura",
+          "Baitadi",
+          "Darchula"
+        ],
+        "state_no": 7
+      }
+    ]
+  }
+]
