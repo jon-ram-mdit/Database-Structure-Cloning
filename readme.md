@@ -1,4 +1,5 @@
 # Steps to replicate Database in your System:
+YouTube Video on How to Setup in your local system: https://youtu.be/TzT2JF8L0Fk
 1. First install node.js in your system ( required )
 2. Then install the required packages using the command: npm install
 3. Please ensure you have an existing database in your system before running the
@@ -8,13 +9,17 @@ system then you can create datbase from the provided docker compose file).
 You can run the docker compose up through the command: docker compose up -d
 (keep on mind to change the docker compose database name which is currently 
 from upwork_sample_db to upwork_sample_db_{freelancer_name}).
+** {freelancer_name} is a variable name given to your name.
 5. Create your database name with the following naming upwork_sample_db_{freelancer_name} before running the script to replicate database in your system.
-6. Then after creating database in your system to replicate the schema by running the 
+6. Change the database name your have created which is upwork_sample_db_{freelancer_name} in the src/index.ts part change the database key value pair from database: "upwork_sample_db", to 
+database: "upwork_sample_db_{freelancer_name}". This part is most important to create tables in database.
+7. Then after creating database in your system to replicate the schema by running the 
 command npm run dev
-7. After running the command if you see this in your output "Data Source has been initialized!" then schema has been replicated in your system. In case any error you will see: Error during Data Source initialization.
+8. After running the command if you see this in your output "Data Source has been initialized!" then schema has been replicated in your system. In case any error you will see: Error during Data Source initialization.
 
 # Data Sources for getting data
-cardekho.com have details data of cars with categorical images, outer specifications, key specifications / feautres but don't have data of year wise release year of variants.
+Currently the primary target is to get detail data of three vehicle type: Car, Bike and Scooter
+For car related information cardekho.com have details data of cars with categorical images, outer specifications, key specifications / feautres but don't have data of year wise release year of variants.
 Similary bikedekho.com consists of detail information of bike and scooters but don't hold information
 of released year of variants. 
 carsales.com.au and bikesale.com.au holds data for year wise release data for the released variants 
