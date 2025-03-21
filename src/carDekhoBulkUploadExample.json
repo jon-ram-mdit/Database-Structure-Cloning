@@ -1,0 +1,871 @@
+{
+  "scrappedVariant": {
+    "price": 1355900,
+    "imageUrl": "https://stimg.cardekho.com/pwa/img/dummy_image_360x240.png",
+    "desc": "<p><strong>Kia Carens Gravity iMT Colours:</strong> This variant is available in 7 colours: Glacier White Pearl, Sparkling Silver, Pewter Olive, Intense Red, Aurora Black Pearl, Imperial Blue and Gravity Gray.</p><p><strong>Kia Carens Gravity iMT Engine and Transmission:</strong> It is powered by a 1482 cc engine which is available with a Manual transmission. The 1482 cc engine puts out 157.81bhp@5500rpm of power and 253Nm@1500-3500rpm of torque.</p><p><strong>Carens Gravity iMT Specs &amp; Features:</strong>Kia Carens Gravity iMT is a 7 seater Petrol car.Carens Gravity iMT has Multi-function Steering Wheel, Power Adjustable Exterior Rear View Mirror, Touchscreen, Anti-lock Braking System (ABS), Power Windows Rear, Power Windows Front, Wheel Covers.</p>",
+    "propCatWithProp": [
+      {
+        "propertyCategory": "Engine & Transmission",
+        "intSpecs": [
+          {
+            "name": "Displacement",
+            "unit": "cc",
+            "value": 1482
+          },
+          {
+            "name": "Max Torque",
+            "unit": "Nm",
+            "value": 253
+          },
+          {
+            "name": "No. of Cylinders",
+            "value": 4
+          },
+          {
+            "name": "Valves Per Cylinder",
+            "value": 4
+          }
+        ],
+        "decSpecs": [
+          {
+            "name": "Max Power",
+            "unit": "bhp",
+            "value": 157.81
+          }
+        ],
+        "textSpecs": [
+          {
+            "name": "Engine Type",
+            "value": "Smartstream T-GDi"
+          },
+          {
+            "name": "Fuel Supply System",
+            "value": "GDi"
+          },
+          {
+            "name": "Transmission Type",
+            "value": "Manual"
+          },
+          {
+            "name": "Gearbox",
+            "value": "6 -Speed"
+          },
+          {
+            "name": "Drive Type",
+            "value": "FWD"
+          }
+        ],
+        "features": [
+          {
+            "name": "Turbo Charger",
+            "value": true
+          }
+        ]
+      },
+      {
+        "propertyCategory": "Fuel & Performance",
+        "intSpecs": [
+          {
+            "name": "Petrol Fuel Tank Capacity",
+            "unit": "Litres",
+            "value": 45
+          },
+          {
+            "name": "Petrol Highway Mileage",
+            "unit": "kmpl",
+            "value": 18
+          },
+          {
+            "name": "Top Speed",
+            "unit": "kmph",
+            "value": 174
+          }
+        ],
+        "decSpecs": [],
+        "textSpecs": [
+          {
+            "name": "Fuel Type",
+            "value": "Petrol"
+          },
+          {
+            "name": "Emission Norm Compliance",
+            "value": "BS VI 2.0"
+          }
+        ],
+        "features": []
+      },
+      {
+        "propertyCategory": "Suspension, Steering & Brakes",
+        "intSpecs": [],
+        "decSpecs": [],
+        "textSpecs": [
+          {
+            "name": "Front Suspension",
+            "value": "MacPherson suspension"
+          },
+          {
+            "name": "Rear Suspension",
+            "value": "Rear twist beam"
+          },
+          {
+            "name": "Steering Type",
+            "value": "Electric"
+          },
+          {
+            "name": "Steering Column",
+            "value": "Tilt"
+          },
+          {
+            "name": "Front Brake Type",
+            "value": "Disc"
+          },
+          {
+            "name": "Rear Brake Type",
+            "value": "Disc"
+          }
+        ],
+        "features": []
+      },
+      {
+        "propertyCategory": "Dimensions & Capacity",
+        "intSpecs": [
+          {
+            "name": "Length",
+            "unit": "mm",
+            "value": 4540
+          },
+          {
+            "name": "Width",
+            "unit": "mm",
+            "value": 1800
+          },
+          {
+            "name": "Height",
+            "unit": "mm",
+            "value": 1708
+          },
+          {
+            "name": "Boot Space",
+            "unit": "Litres",
+            "value": 216
+          },
+          {
+            "name": "Seating Capacity",
+            "value": 7
+          },
+          {
+            "name": "Wheel Base",
+            "unit": "mm",
+            "value": 2780
+          },
+          {
+            "name": "No. of Doors",
+            "value": 5
+          }
+        ],
+        "decSpecs": [],
+        "textSpecs": [
+          {
+            "name": "Body Type",
+            "value": "MUV"
+          }
+        ],
+        "features": []
+      },
+      {
+        "propertyCategory": "Comfort & Convenience",
+        "intSpecs": [],
+        "decSpecs": [],
+        "textSpecs": [
+          {
+            "name": "Parking Sensors",
+            "value": "Rear"
+          },
+          {
+            "name": "Foldable Rear Seat",
+            "value": "60:40 Split"
+          },
+          {
+            "name": "USB Charger",
+            "value": "Front & Rear"
+          },
+          {
+            "name": "Central Console Armrest",
+            "value": "With Storage"
+          },
+          {
+            "name": "Power Windows",
+            "value": "Front & Rear"
+          },
+          {
+            "name": "Cup Holders",
+            "value": "Front & Rear"
+          }
+        ],
+        "features": [
+          {
+            "name": "Power Steering",
+            "value": true
+          },
+          {
+            "name": "Air Conditioner",
+            "value": true
+          },
+          {
+            "name": "Heater",
+            "value": true
+          },
+          {
+            "name": "Height Adjustable Driver Seat",
+            "value": true
+          },
+          {
+            "name": "Ventilated Seats",
+            "value": false
+          },
+          {
+            "name": "Electric Adjustable Seats",
+            "value": false
+          },
+          {
+            "name": "Automatic Climate Control",
+            "value": false
+          },
+          {
+            "name": "Air Quality Control",
+            "value": false
+          },
+          {
+            "name": "Remote Fuel Lid Opener",
+            "value": false
+          },
+          {
+            "name": "Accessory Power Outlet",
+            "value": true
+          },
+          {
+            "name": "Trunk Light",
+            "value": false
+          },
+          {
+            "name": "Vanity Mirror",
+            "value": true
+          },
+          {
+            "name": "Rear Reading Lamp",
+            "value": true
+          },
+          {
+            "name": "Adjustable Headrest",
+            "value": true
+          },
+          {
+            "name": "Rear Seat Centre Arm Rest",
+            "value": true
+          },
+          {
+            "name": "Height Adjustable Front Seat Belts",
+            "value": false
+          },
+          {
+            "name": "Rear AC Vents",
+            "value": true
+          },
+          {
+            "name": "Cruise Control",
+            "value": false
+          },
+          {
+            "name": "KeyLess Entry",
+            "value": true
+          },
+          {
+            "name": "Engine Start/Stop Button",
+            "value": false
+          },
+          {
+            "name": "Voice Commands",
+            "value": true
+          },
+          {
+            "name": "Paddle Shifters",
+            "value": false
+          },
+          {
+            "name": "Luggage Hook & Net",
+            "value": true
+          },
+          {
+            "name": "Drive Modes",
+            "value": false
+          },
+          {
+            "name": "Idle Start-Stop System",
+            "value": true
+          },
+          {
+            "name": "Rear Window Sunblind",
+            "value": true
+          },
+          {
+            "name": "Rear Windscreen Sunblind",
+            "value": false
+          },
+          {
+            "name": "Automatic Headlamps",
+            "value": false
+          },
+          {
+            "name": "Follow Me Home Headlamps",
+            "value": true
+          },
+          {
+            "name": "Voice assisted sunroof",
+            "value": false
+          },
+          {
+            "name": "Drive Mode Types",
+            "value": false
+          }
+        ]
+      },
+      {
+        "propertyCategory": "Interior",
+        "intSpecs": [],
+        "decSpecs": [
+          {
+            "name": "Digital Cluster Size",
+            "value": 4.2
+          }
+        ],
+        "textSpecs": [
+          {
+            "name": "Upholstery",
+            "value": "Fabric"
+          }
+        ],
+        "features": [
+          {
+            "name": "Tachometer",
+            "value": true
+          },
+          {
+            "name": "Leather Wrapped Steering Wheel",
+            "value": false
+          },
+          {
+            "name": "Leather wrap gear-shift selector",
+            "value": false
+          },
+          {
+            "name": "Glove Box",
+            "value": true
+          },
+          {
+            "name": "Folding Table in The Rear",
+            "value": false
+          },
+          {
+            "name": "Dual Tone Dashboard",
+            "value": true
+          },
+          {
+            "name": "Digital Cluster",
+            "value": true
+          },
+          {
+            "name": "Ambient Light Colour (numbers)",
+            "value": false
+          }
+        ]
+      },
+      {
+        "propertyCategory": "Exterior",
+        "intSpecs": [
+          {
+            "name": "Wheel Size",
+            "unit": "Inch",
+            "value": 16
+          }
+        ],
+        "decSpecs": [],
+        "textSpecs": [
+          {
+            "name": "Antenna",
+            "value": "Shark Fin"
+          },
+          {
+            "name": "Sunroof",
+            "value": "Single Pane"
+          },
+          {
+            "name": "Boot Opening",
+            "value": "Electronic"
+          },
+          {
+            "name": "Outside Rear View Mirror (ORVM)",
+            "value": "Powered"
+          },
+          {
+            "name": "Tyre Size",
+            "value": "205/65 R16"
+          },
+          {
+            "name": "Tyre Type",
+            "value": "Radial Tubeless"
+          }
+        ],
+        "features": [
+          {
+            "name": "Adjustable Headlamps",
+            "value": true
+          },
+          {
+            "name": "Rain Sensing Wiper",
+            "value": false
+          },
+          {
+            "name": "Rear Window Wiper",
+            "value": false
+          },
+          {
+            "name": "Rear Window Washer",
+            "value": false
+          },
+          {
+            "name": "Rear Window Defogger",
+            "value": false
+          },
+          {
+            "name": "Wheel Covers",
+            "value": true
+          },
+          {
+            "name": "Alloy Wheels",
+            "value": false
+          },
+          {
+            "name": "Rear Spoiler",
+            "value": true
+          },
+          {
+            "name": "Side Stepper",
+            "value": false
+          },
+          {
+            "name": "Outside Rear View Mirror Turn Indicators",
+            "value": true
+          },
+          {
+            "name": "Integrated Antenna",
+            "value": true
+          },
+          {
+            "name": "Chrome Grille",
+            "value": false
+          },
+          {
+            "name": "Chrome Garnish",
+            "value": true
+          },
+          {
+            "name": "Halogen Headlamps",
+            "value": true
+          },
+          {
+            "name": "Roof Rails",
+            "value": false
+          },
+          {
+            "name": "Fog Lights",
+            "value": false
+          },
+          {
+            "name": "Heated Outside Rear View Mirror",
+            "value": false
+          },
+          {
+            "name": "LED DRLs",
+            "value": false
+          },
+          {
+            "name": "LED Headlamps",
+            "value": false
+          },
+          {
+            "name": "LED Taillights",
+            "value": false
+          },
+          {
+            "name": "LED Fog Lamps",
+            "value": false
+          }
+        ]
+      },
+      {
+        "propertyCategory": "Safety",
+        "intSpecs": [
+          {
+            "name": "No. of Airbags",
+            "value": 6
+          }
+        ],
+        "decSpecs": [],
+        "textSpecs": [
+          {
+            "name": "Rear Camera",
+            "value": "With Guidedlines"
+          },
+          {
+            "name": "Pretensioners & Force Limiter Seatbelts",
+            "value": "Driver and Passenger"
+          }
+        ],
+        "features": [
+          {
+            "name": "Anti-lock Braking System (ABS)",
+            "value": true
+          },
+          {
+            "name": "Brake Assist",
+            "value": true
+          },
+          {
+            "name": "Central Locking",
+            "value": true
+          },
+          {
+            "name": "Child Safety Locks",
+            "value": true
+          },
+          {
+            "name": "Anti-Theft Alarm",
+            "value": true
+          },
+          {
+            "name": "Driver Airbag",
+            "value": true
+          },
+          {
+            "name": "Passenger Airbag",
+            "value": true
+          },
+          {
+            "name": "Side Airbag",
+            "value": true
+          },
+          {
+            "name": "Side Airbag-Rear",
+            "value": false
+          },
+          {
+            "name": "Day & Night Rear View Mirror",
+            "value": true
+          },
+          {
+            "name": "Curtain Airbag",
+            "value": true
+          },
+          {
+            "name": "Electronic Brakeforce Distribution (EBD)",
+            "value": true
+          },
+          {
+            "name": "Seat Belt Warning",
+            "value": true
+          },
+          {
+            "name": "Door Ajar Warning",
+            "value": true
+          },
+          {
+            "name": "Tyre Pressure Monitoring System (TPMS)",
+            "value": true
+          },
+          {
+            "name": "Engine Immobilizer",
+            "value": true
+          },
+          {
+            "name": "Electronic Stability Control (ESC)",
+            "value": true
+          },
+          {
+            "name": "Speed Alert",
+            "value": true
+          },
+          {
+            "name": "Speed Sensing Auto Door Lock",
+            "value": true
+          },
+          {
+            "name": "ISOFIX Child Seat Mounts",
+            "value": true
+          },
+          {
+            "name": "Hill Descent Control",
+            "value": true
+          },
+          {
+            "name": "Hill Assist",
+            "value": true
+          },
+          {
+            "name": "Impact Sensing Auto Door Unlock",
+            "value": true
+          }
+        ]
+      },
+      {
+        "propertyCategory": "Entertainment & Communication",
+        "intSpecs": [
+          {
+            "name": "No. of Speakers",
+            "value": 4
+          },
+          {
+            "name": "Tweeters",
+            "value": 2
+          }
+        ],
+        "decSpecs": [],
+        "textSpecs": [
+          {
+            "name": "Connectivity",
+            "value": "Android Auto, Apple CarPlay"
+          },
+          {
+            "name": "Speakers",
+            "value": "Front & Rear"
+          }
+        ],
+        "features": [
+          {
+            "name": "Radio",
+            "value": true
+          },
+          {
+            "name": "Integrated 2DIN Audio",
+            "value": true
+          },
+          {
+            "name": "Wireless Phone Charging",
+            "value": false
+          },
+          {
+            "name": "Bluetooth Connectivity",
+            "value": true
+          },
+          {
+            "name": "Touchscreen",
+            "value": true
+          },
+          {
+            "name": "Android Auto",
+            "value": true
+          },
+          {
+            "name": "Apple CarPlay",
+            "value": true
+          },
+          {
+            "name": "Rear Entertainment System",
+            "value": false
+          },
+          {
+            "name": "Usb Ports",
+            "value": true
+          },
+          {
+            "name": "Rear Touchscreen",
+            "value": false
+          }
+        ]
+      },
+      {
+        "propertyCategory": "ADAS Feature",
+        "intSpecs": [],
+        "decSpecs": [],
+        "textSpecs": [],
+        "features": [
+          {
+            "name": "Forward Collision Warning",
+            "value": false
+          },
+          {
+            "name": "Automatic Emergency Braking",
+            "value": false
+          },
+          {
+            "name": "Oncoming Lane Mitigation",
+            "value": false
+          },
+          {
+            "name": "Speed Assist System",
+            "value": false
+          },
+          {
+            "name": "Traffic Sign Recognition",
+            "value": false
+          },
+          {
+            "name": "Blind Spot Collision Avoidance Assist",
+            "value": false
+          },
+          {
+            "name": "Lane Departure Warning",
+            "value": false
+          },
+          {
+            "name": "Lane Keep Assist",
+            "value": false
+          },
+          {
+            "name": "Lane Departure Prevention Assist",
+            "value": false
+          },
+          {
+            "name": "Road Departure Mitigation System",
+            "value": false
+          },
+          {
+            "name": "Driver Attention Warning",
+            "value": false
+          },
+          {
+            "name": "Adaptive Cruise Control",
+            "value": false
+          },
+          {
+            "name": "Leading Vehicle Departure Alert",
+            "value": false
+          },
+          {
+            "name": "Adaptive High Beam Assist",
+            "value": false
+          },
+          {
+            "name": "Rear Cross Traffic Alert",
+            "value": false
+          },
+          {
+            "name": "Rear Cross Traffic Collision-Avoidance Assist",
+            "value": false
+          },
+          {
+            "name": "Autonomous Parking",
+            "value": false
+          }
+        ]
+      },
+      {
+        "propertyCategory": "Advance Internet Feature",
+        "intSpecs": [],
+        "decSpecs": [],
+        "textSpecs": [],
+        "features": [
+          {
+            "name": "Live Location",
+            "value": false
+          },
+          {
+            "name": "Remote Immobiliser",
+            "value": false
+          },
+          {
+            "name": "Unauthorised Vehicle entry",
+            "value": false
+          },
+          {
+            "name": "Remote Vehicle Status Check",
+            "value": false
+          },
+          {
+            "name": "Navigation with Live Traffic",
+            "value": false
+          },
+          {
+            "name": "Send POI to Vehicle From App",
+            "value": false
+          },
+          {
+            "name": "Live Weather",
+            "value": false
+          },
+          {
+            "name": "E-Call & I-Call",
+            "value": false
+          },
+          {
+            "name": "Over the Air (OTA) Updates",
+            "value": false
+          },
+          {
+            "name": "Google / Alexa Connectivity",
+            "value": false
+          },
+          {
+            "name": "Save Route/Place",
+            "value": false
+          },
+          {
+            "name": "SOS Button",
+            "value": false
+          },
+          {
+            "name": "RSA",
+            "value": false
+          },
+          {
+            "name": "Over Speeding Alert",
+            "value": false
+          },
+          {
+            "name": "Remote AC On/Off",
+            "value": false
+          }
+        ]
+      }
+    ]
+  },
+  "subType": {
+    "propCatHashInput": "engine&transmissionfuel&performancesuspension,steering&brakesdimensions&capacitycomfort&convenienceinteriorexteriorsafetyentertainment&communicationadasfeatureadvanceinternetfeature",
+    "subTypeKeySpecs": [
+      "Displacement",
+      "Max Power",
+      "Max Torque",
+      "No. of Cylinders",
+      "Transmission Type",
+      "Fuel Type",
+      "Petrol Fuel Tank Capacity",
+      "Body Type",
+      "Boot Space",
+      "Seating Capacity"
+    ],
+    "subTypeOuterSpecs": [
+      "Displacement",
+      "Max Power",
+      "Transmission Type",
+      "Fuel Type",
+      "Boot Space"
+    ],
+    "subTypeKeyFeatures": [
+      "Power Steering",
+      "Air Conditioner",
+      "Automatic Climate Control",
+      "Alloy Wheels",
+      "Anti-lock Braking System (ABS)",
+      "Driver Airbag",
+      "Passenger Airbag"
+    ]
+  },
+  "dbVariant": {
+    "variant_name": "Gravity iMT",
+    "variant_description": "Gravity iMT Description",
+    "deleted_date": null,
+    "created_date": "2025-01-19T07:10:16.292Z",
+    "updated_date": "2025-01-19T07:10:16.292Z",
+    "model_variant_id": "030b613f-088b-4a26-8dd0-ef9f6df6e06a"
+  },
+  "yearColors": []
+}

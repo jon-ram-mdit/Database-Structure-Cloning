@@ -8,6 +8,7 @@ import {
 import { ProductTypes } from "./productTypes";
 import { YearImages } from "../end-product/yearImages";
 import { DateTimeAbstract } from "../../../../utils/entities/DateTimeAbstract";
+import { ModelImages } from "../end-product/modelImages";
 
 @Entity()
 export class ProductTypeImagePropertyCategories extends DateTimeAbstract {
@@ -28,4 +29,10 @@ export class ProductTypeImagePropertyCategories extends DateTimeAbstract {
     (endYearImage) => endYearImage.imagePropertyCategory
   )
   endYearImages: YearImages[];
+
+  @OneToMany(
+    () => ModelImages,
+    (modelImage) => modelImage.imagePropertyCategory
+  )
+  modelImages: ModelImages[];
 }

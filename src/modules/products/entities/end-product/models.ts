@@ -9,6 +9,8 @@ import { ProductBrands } from "./brands";
 import { ModelsVariants } from "./variants";
 import { DateTimeAbstract } from "../../../../utils/entities/DateTimeAbstract";
 import { ProductTypes } from "../productType/productTypes";
+import { ModelImages } from "./modelImages";
+import { ModelColors } from "./modelColors";
 
 export enum ModelRelations {
   PT = "productType",
@@ -41,4 +43,10 @@ export class BrandsModels extends DateTimeAbstract {
     (modelsVariants) => modelsVariants.brandModel
   )
   variants: ModelsVariants[];
+
+  @OneToMany(() => ModelImages, (modelImages) => modelImages.model)
+  modelImages: ModelImages[];
+
+  @OneToMany(() => ModelColors, (modelColor) => modelColor.model)
+  modelColors: ModelColors[];
 }

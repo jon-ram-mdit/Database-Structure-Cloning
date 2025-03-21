@@ -16,6 +16,7 @@ import { ProductTypesPricingRanges } from "./productTypesPriceRange";
 import { ProductTypeImagePropertyCategories } from "./productTypeImagePropCat";
 import { ProductTypeBudgetRanges } from "./typeBudgetRange";
 import { ImageUrlPrefixTransformer } from "../../../../utils/entities/ImageUrlTransformer";
+import { BikeDekhoPreBulkUploadStore } from "../end-product/BikeDekhoPreBulkUploadStore";
 
 export enum ProductTypeRelations {
   PC = "propCat",
@@ -81,4 +82,7 @@ export class ProductTypes extends DateTimeAbstract {
     (imagePropCat) => imagePropCat.productType
   )
   imagePropertyCategories: ProductTypeImagePropertyCategories[];
+
+  @OneToMany(() => BikeDekhoPreBulkUploadStore, (store) => store.productType)
+  bikeDekhoUploadStore: BikeDekhoPreBulkUploadStore[];
 }

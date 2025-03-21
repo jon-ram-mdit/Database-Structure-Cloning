@@ -34,6 +34,9 @@ export class ProductSubTypes extends DateTimeAbstract {
   @Column({ unique: true })
   name: string;
 
+  @Column({ default: "hash" })
+  propCatHash: string;
+
   @Column({
     type: "enum",
     enum: SubTypeTypes,

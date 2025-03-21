@@ -1,0 +1,427 @@
+{
+    "scrappedVariant": {
+        "price": 80450,
+        "imageUrl": "https://cdn.bikedekho.com/processedimages/hero/destini/source/destini678bdb457d718.jpg",
+        "desc": "<p><strong>Hero Destini 125 VX mileage :</strong> It returns a certified mileage of 59 kmpl.</p><p><strong>Hero Destini 125 VX Colours:</strong> This variant is available in 3 colours: Eternal White,Regal Black,Groovy Red.</p><p><strong>Hero Destini 125 VX Engine and Transmission:</strong> It is powered by 124.6 cc engine and puts a power of 9.12 PS . Torque remains at 10.4 Nm .</p>",
+        "propCatWithProp": [
+            {
+                "propertyCategory": "Engine and Transmission",
+                "intSpecs": [
+                    {
+                        "name": "No. of Cylinders",
+                        "value": 1
+                    }
+                ],
+                "decSpecs": [
+                    {
+                        "name": "Displacement",
+                        "value": 124.6,
+                        "unit": "cc"
+                    },
+                    {
+                        "name": "Max Torque",
+                        "value": 10.4,
+                        "unit": "Nm"
+                    }
+                ],
+                "textSpecs": [
+                    {
+                        "name": "Engine Type",
+                        "value": "Air Cooled, 4 Stroke, SI Engine"
+                    },
+                    {
+                        "name": "Starting",
+                        "value": "Kick and Self Start"
+                    },
+                    {
+                        "name": "Gear Box",
+                        "value": "CVT"
+                    },
+                    {
+                        "name": "Emission Type",
+                        "value": "bs6-2.0"
+                    }
+                ],
+                "features": []
+            },
+            {
+                "propertyCategory": "Features",
+                "intSpecs": [],
+                "decSpecs": [],
+                "textSpecs": [
+                    {
+                        "name": "Instrument Console",
+                        "value": "Analogue and Digital"
+                    },
+                    {
+                        "name": "Speedometer",
+                        "value": "Analogue"
+                    },
+                    {
+                        "name": "Techometer",
+                        "value": "Analogue"
+                    },
+                    {
+                        "name": "Tripmeter",
+                        "value": "Digital"
+                    },
+                    {
+                        "name": "Odometer",
+                        "value": "Digital"
+                    },
+                    {
+                        "name": "Seat Type",
+                        "value": "Single"
+                    }
+                ],
+                "features": [
+                    {
+                        "name": "Passenger Footrest",
+                        "value": true
+                    },
+                    {
+                        "name": "Carry hook",
+                        "value": true
+                    }
+                ]
+            },
+            {
+                "propertyCategory": "Features and Safety",
+                "intSpecs": [],
+                "decSpecs": [],
+                "textSpecs": [
+                    {
+                        "name": "Tachometer",
+                        "value": "Analogue"
+                    },
+                    {
+                        "name": "Fuel Gauge",
+                        "value": "Digital"
+                    }
+                ],
+                "features": [
+                    {
+                        "name": "Seat Opening Switch",
+                        "value": true
+                    },
+                    {
+                        "name": "External Fuel Filling",
+                        "value": true
+                    },
+                    {
+                        "name": "Pass Switch",
+                        "value": true
+                    },
+                    {
+                        "name": "Carry Hook",
+                        "value": true
+                    },
+                    {
+                        "name": "Engine Kill Switch",
+                        "value": true
+                    }
+                ]
+            },
+            {
+                "propertyCategory": "Mileage and Performance",
+                "intSpecs": [
+                    {
+                        "name": "Overall Mileage",
+                        "value": 59,
+                        "unit": "kmpl"
+                    }
+                ],
+                "decSpecs": [],
+                "textSpecs": [],
+                "features": []
+            },
+            {
+                "propertyCategory": "Dimensions and Capacity",
+                "intSpecs": [
+                    {
+                        "name": "Width",
+                        "value": 697,
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Length",
+                        "value": 1862,
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Height",
+                        "value": 1125,
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Saddle Height",
+                        "value": 770,
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Ground Clearance",
+                        "value": 162,
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Wheelbase",
+                        "value": 1302,
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Kerb Weight",
+                        "value": 115,
+                        "unit": "kg"
+                    }
+                ],
+                "decSpecs": [
+                    {
+                        "name": "Fuel Capacity",
+                        "value": 5.3,
+                        "unit": "L"
+                    }
+                ],
+                "textSpecs": [],
+                "features": []
+            },
+            {
+                "propertyCategory": "Electricals",
+                "intSpecs": [],
+                "decSpecs": [],
+                "textSpecs": [
+                    {
+                        "name": "Headlight",
+                        "value": "LED"
+                    },
+                    {
+                        "name": "Taillight",
+                        "value": "Bulb"
+                    },
+                    {
+                        "name": "Turn Signal Lamp",
+                        "value": "Bulb"
+                    }
+                ],
+                "features": [
+                    {
+                        "name": "DRLs",
+                        "value": true
+                    },
+                    {
+                        "name": "Projector Headlights",
+                        "value": true
+                    },
+                    {
+                        "name": "Low Fuel Indicator",
+                        "value": true
+                    }
+                ]
+            },
+            {
+                "propertyCategory": "Motor & Battery",
+                "intSpecs": [],
+                "decSpecs": [
+                    {
+                        "name": "Peak Power",
+                        "value": 9.12,
+                        "unit": "PS"
+                    }
+                ],
+                "textSpecs": [
+                    {
+                        "name": "Battery Capacity",
+                        "value": "12V / 4AH"
+                    },
+                    {
+                        "name": "Transmission",
+                        "value": "Automatic"
+                    }
+                ],
+                "features": []
+            },
+            {
+                "propertyCategory": "Underpinnings",
+                "intSpecs": [],
+                "decSpecs": [],
+                "textSpecs": [
+                    {
+                        "name": "Suspension Rear",
+                        "value": "Single Coil Spring Hydraulic Type"
+                    },
+                    {
+                        "name": "Brakes Front",
+                        "value": "Drum"
+                    },
+                    {
+                        "name": "Brakes Rear",
+                        "value": "Drum"
+                    },
+                    {
+                        "name": "Tyre Size",
+                        "value": "Front :-90/90-12 Rear :-100/80-12"
+                    },
+                    {
+                        "name": "Wheel Size",
+                        "value": "Front :-304.8 mm Rear :-304.8 mm"
+                    },
+                    {
+                        "name": "Wheels Type",
+                        "value": "Alloy"
+                    },
+                    {
+                        "name": "Tubeless Tyre",
+                        "value": "Tubeless"
+                    }
+                ],
+                "features": []
+            }
+        ]
+    },
+    "subType": {
+        "propCatHashInput": "engineandtransmissionfeaturesfeaturesandsafetymileageandperformancedimensionsandcapacityelectricalsmotor&batteryunderpinnings",
+        "subTypeKeySpecs": [
+            "Engine Type",
+            "Displacement",
+            "Max Torque",
+            "Overall Mileage",
+            "Fuel Capacity",
+            "Peak Power",
+            "Brakes Front",
+            "Brakes Rear"
+        ],
+        "subTypeOuterSpecs": [
+            "Displacement",
+            "Max Torque",
+            "Overall Mileage",
+            "Kerb Weight",
+            "Peak Power",
+            "Brakes Front",
+            "Brakes Rear"
+        ],
+        "subTypeKeyFeatures": [
+            "Seat Opening Switch",
+            "External Fuel Filling",
+            "DRLs"
+        ]
+    },
+    "categoricalImages": [
+        {
+            "category": "Images",
+            "images": [
+                {
+                    "url": "https://cdn.bikedekho.com/processedimages/hero/destini/source/destini678bdb457d718.jpg",
+                    "caption": "Hero Destini 125 CoverImage"
+                },
+                {
+                    "url": "https://cdn.bikedekho.com/processedimages/hero/destini/source/destini678c92dac0b93.jpg",
+                    "caption": "Hero Destini 125"
+                },
+                {
+                    "url": "https://cdn.bikedekho.com/processedimages/hero/destini/source/destini678c92db520ac.jpg",
+                    "caption": "Hero Destini 125"
+                },
+                {
+                    "url": "https://cdn.bikedekho.com/processedimages/hero/destini/source/destini678c92dbc673a.jpg",
+                    "caption": "Hero Destini 125"
+                },
+                {
+                    "url": "https://cdn.bikedekho.com/processedimages/hero/destini/source/destini678c92dc47a13.jpg",
+                    "caption": "Hero Destini 125"
+                },
+                {
+                    "url": "https://cdn.bikedekho.com/processedimages/hero/destini/source/destini678c92dcbcfaa.jpg",
+                    "caption": "Hero Destini 125"
+                },
+                {
+                    "url": "https://cdn.bikedekho.com/processedimages/hero/destini/source/destini678c92dd4c265.jpg",
+                    "caption": "Hero Destini 125"
+                },
+                {
+                    "url": "https://cdn.bikedekho.com/processedimages/hero/destini/source/destini678c92ddc0100.jpg",
+                    "caption": "Hero Destini 125"
+                },
+                {
+                    "url": "https://cdn.bikedekho.com/processedimages/hero/destini/source/destini678c92de3f356.jpg",
+                    "caption": "Hero Destini 125"
+                },
+                {
+                    "url": "https://cdn.bikedekho.com/processedimages/hero/destini/source/destini678c92deb46fb.jpg",
+                    "caption": "Hero Destini 125"
+                },
+                {
+                    "url": "https://cdn.bikedekho.com/processedimages/hero/destini/source/destini678c92df33c7e.jpg",
+                    "caption": "Hero Destini 125"
+                },
+                {
+                    "url": "https://cdn.bikedekho.com/processedimages/hero/destini/source/destini678c92dfac95c.jpg",
+                    "caption": "Hero Destini 125"
+                },
+                {
+                    "url": "https://cdn.bikedekho.com/processedimages/hero/destini/source/destini678c92e039655.jpg",
+                    "caption": "Hero Destini 125"
+                },
+                {
+                    "url": "https://cdn.bikedekho.com/processedimages/hero/destini/source/destini678c92e0c1336.jpg",
+                    "caption": "Hero Destini 125"
+                },
+                {
+                    "url": "https://cdn.bikedekho.com/processedimages/hero/destini/source/destini678c92e15dc48.jpg",
+                    "caption": "Hero Destini 125"
+                },
+                {
+                    "url": "https://cdn.bikedekho.com/processedimages/hero/destini/source/destini678c92e1e8063.jpg",
+                    "caption": "Hero Destini 125"
+                },
+                {
+                    "url": "https://cdn.bikedekho.com/processedimages/hero/destini/source/destini678c92f414170.jpg",
+                    "caption": "Hero Destini 125"
+                },
+                {
+                    "url": "https://cdn.bikedekho.com/processedimages/hero/destini/source/destini678c92f48fba5.jpg",
+                    "caption": "Hero Destini 125"
+                },
+                {
+                    "url": "https://cdn.bikedekho.com/processedimages/hero/destini/source/destini678c92f51127c.jpg",
+                    "caption": "Hero Destini 125"
+                },
+                {
+                    "url": "https://cdn.bikedekho.com/processedimages/hero/destini/source/destini678c92f58d91b.jpg",
+                    "caption": "Hero Destini 125"
+                },
+                {
+                    "url": "https://cdn.bikedekho.com/processedimages/hero/destini/source/destini678c92f60efd2.jpg",
+                    "caption": "Hero Destini 125"
+                },
+                {
+                    "url": "https://cdn.bikedekho.com/processedimages/hero/destini/source/destini678c92f68a121.jpg",
+                    "caption": "Hero Destini 125"
+                }
+            ]
+        }
+    ],
+    "yearColors": [
+        {
+            "name": "Eternal White",
+            "color1": "#FFFFFF",
+            "url": "https://cdn.bikedekho.com/processedimages/hero/destini/source/destini678b5dbfdcf2b.jpg"
+        },
+        {
+            "name": "Regal Black",
+            "color1": "#000000",
+            "url": "https://cdn.bikedekho.com/processedimages/hero/destini/source/destini678b5dd2ce553.jpg"
+        },
+        {
+            "name": "Groovy Red",
+            "color1": "#CF4140",
+            "url": "https://cdn.bikedekho.com/processedimages/hero/destini/source/destini678b5e0307db6.jpg"
+        }
+    ],
+    "dbVariant": {
+        "variant_name": "VX",
+        "variant_description": "VX Description",
+        "deleted_date": null,
+        "created_date": "2025-01-19T07:29:07.296Z",
+        "updated_date": "2025-01-19T07:29:07.296Z",
+        "model_variant_id": "0d76900c-4c02-4e01-9a6d-c6b599b4208a"
+    }
+}
