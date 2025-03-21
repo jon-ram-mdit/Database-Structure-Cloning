@@ -4,6 +4,9 @@ We already had made an all in one vehicle market place website which deals with 
 
 # Steps to replicate Database in your System:
 
+To clone the database directy into your system you can import the SQL file (sample_database_2025-03-21_072910.sql) present in the root folder. This will clone our 
+existing datbase in your system along with some sample data which might be helpful for you.
+
 Our backend system is made on Node.js runtime using the TypeScript programming language where
 the database schema is written on TypeORM. To clone this schema follow the following steps:
 
