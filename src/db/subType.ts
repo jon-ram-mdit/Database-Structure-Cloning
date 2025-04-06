@@ -10,8 +10,14 @@ import { SubTypesPropCatDecimalSpecs } from "../modules/products/entities/sub-ty
 import { SubTypesPropCatFeatures } from "../modules/products/entities/sub-type/property-category/propCatFeatures";
 import { SubTypesPropCatIntSpecs } from "../modules/products/entities/sub-type/property-category/propCatIntSpecs";
 import { SubTypesPropCatTextSpecs } from "../modules/products/entities/sub-type/property-category/propCatTextSpecs";
-import { SubTypesPropCat, propertyType } from "../modules/products/entities/sub-type/property-category/subTypePropCat";
-import { ProductSubTypes, SubTypeTypes } from "../modules/products/entities/sub-type/subType";
+import {
+  SubTypesPropCat,
+  propertyType,
+} from "../modules/products/entities/sub-type/property-category/subTypePropCat";
+import {
+  ProductSubTypes,
+  SubTypeTypes,
+} from "../modules/products/entities/sub-type/subType";
 import { getOrCreatePropCat } from "./propCat";
 
 // import { redis } from "..";
@@ -56,6 +62,7 @@ export interface ILocalSubTypeValue {
   subTypeOuterIntSpecLookUp: Map<string, OuterIntSpecs>;
   subTypeOuterDecSpecLookUp: Map<string, OuterDecimalSpecs>;
   subTypeOuterTextSpecLookUp: Map<string, OuterTextSpecs>;
+  insertedProperties: Set<String>;
   years: VariantsYears[];
 }
 
@@ -75,6 +82,7 @@ function assignNewObjectToLocalSubTypeMap(subType: ProductSubTypes) {
     subTypeKeyIntSpecLookUp: new Set<string>(),
     subTypeKeyTextSpecLookUp: new Set<string>(),
     subTypeKeyFeatureLookUp: new Set<string>(),
+    insertedProperties: new Set<string>(),
     years: [],
   };
 

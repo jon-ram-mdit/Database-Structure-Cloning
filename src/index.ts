@@ -8,6 +8,8 @@ import { ProductTextSpecsValues } from "./modules/products/entities/properties/t
 import { ProductUnits } from "./modules/products/entities/properties/unit";
 import { bulkUploadCarData } from "./Bulk Upload Year/car";
 import { bulkUploadBikeDekhoData } from "./Bulk Upload Year/bikeScooter";
+import { bulkUploadBusDekhoData } from "./Bulk Upload Year/bus";
+import { bulkUploadTruckDekhoData } from "./Bulk Upload Year/truck";
 
 const baseFolder = "src/";
 
@@ -47,8 +49,10 @@ AppDataSource.initialize()
     console.log("Data Source has been initialized!");
 
     // run this bulk upload after extract the data in the specified format
-    // await bulkUploadCarData();
+    await bulkUploadCarData();
     // await bulkUploadBikeDekhoData();
+    // await bulkUploadBusDekhoData();
+    // await bulkUploadTruckDekhoData();
   })
   .catch((err) => {
     console.error("Error during Data Source initialization", err);

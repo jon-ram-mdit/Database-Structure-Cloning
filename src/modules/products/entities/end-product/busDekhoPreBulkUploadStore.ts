@@ -1,13 +1,16 @@
-import { Column, Entity, ManyToOne, PrimaryGeneratedColumn } from "typeorm";
+import { Entity, PrimaryGeneratedColumn, Column, ManyToOne } from "typeorm";
+import { DateTimeAbstract } from "../../../../utils/entities/DateTimeAbstract";
+import { ProductTypes } from "../productType/productTypes";
 import { ModelsVariants } from "./variants";
 import { IPropCatWithProp } from "./BikeDekhoPreBulkUploadStore";
 
-export interface IScrappedVariantDetail {
+export interface IBusDekhoPreBulkUploadStoreType {
+  dbVariant: ModelsVariants;
   scrappedVariant: {
     price: number;
+    imageUrl: string;
     desc: string;
     propCatWithProp: IPropCatWithProp[];
-    imageUrl: string;
   };
   subType: {
     propCatHashInput: string;
@@ -15,7 +18,6 @@ export interface IScrappedVariantDetail {
     subTypeOuterSpecs: string[];
     subTypeKeyFeatures: string[];
   };
-  dbVariant: ModelsVariants;
   yearColors: {
     name: string;
     color1: string;
@@ -30,15 +32,25 @@ export interface IScrappedVariantDetail {
     }[];
   }[];
 }
+[];
 
 @Entity()
-export class CarPreYearBulkUploadStore {
+export class BusDekhoPreBulkUploadStore extends DateTimeAbstract {
   @PrimaryGeneratedColumn("uuid")
   id: string;
 
   @Column({ type: "json" })
-  data: IScrappedVariantDetail;
+  data: IBusDekhoPreBulkUploadStoreType;
 
-  @ManyToOne(() => ModelsVariants, (variant) => variant.store)
+  @ManyToOne(
+    () => ModelsVariants,
+    (variant) => variant.busDekhoPreBulkUploadStore
+  )
   variant: ModelsVariants;
+
+  @ManyToOne(
+    () => ProductTypes,
+    (vehicleType) => vehicleType.busDekhoPreBulkUploadStore
+  )
+  vehicleType: ProductTypes;
 }

@@ -25,7 +25,8 @@ export async function bulkUploadCarData() {
       carVehicleType,
       variantDetail.scrappedVariant,
       variantDetail.subType,
-      variantDetail.yearColors
+      variantDetail?.yearColors ?? [],
+      variantDetail.categoricalImages ?? []
     );
   }
   console.log("***** completed uploading all the variants year data *****");

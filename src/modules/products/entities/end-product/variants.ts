@@ -10,6 +10,8 @@ import { VariantsYears } from "./year";
 import { DateTimeAbstract } from "../../../../utils/entities/DateTimeAbstract";
 import { BikeDekhoPreBulkUploadStore } from "./BikeDekhoPreBulkUploadStore";
 import { CarPreYearBulkUploadStore } from "./CarPreYearBulkUploadStore";
+import { BusDekhoPreBulkUploadStore } from "./busDekhoPreBulkUploadStore";
+import { TruckDekhoPreBulkUploadStore } from "./truckDekhoPreBulkUploadStore";
 
 export enum VariantsRelations {
   M = "brandModel",
@@ -47,4 +49,16 @@ export class ModelsVariants extends DateTimeAbstract {
     (preBulkUpload) => preBulkUpload.variant
   )
   bikeDekhoStore: BikeDekhoPreBulkUploadStore[];
+
+  @OneToMany(
+    () => BusDekhoPreBulkUploadStore,
+    (preBulkUpload) => preBulkUpload.variant
+  )
+  busDekhoPreBulkUploadStore: BusDekhoPreBulkUploadStore[];
+
+  @OneToMany(
+    () => TruckDekhoPreBulkUploadStore,
+    (preBulkUpload) => preBulkUpload.variant
+  )
+  truckDekhoPreBulkUploadStore: TruckDekhoPreBulkUploadStore[];
 }
