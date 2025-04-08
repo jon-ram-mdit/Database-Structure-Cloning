@@ -1,11 +1,12 @@
 export async function promiseAllSetteled(promises: Promise<any>[]) {
   try {
     const promiseResults = await Promise.allSettled(promises);
-    const hasAnyPromiseFailed = promiseResults.some(
+    const failedPromise = promiseResults.find(
       (promiseResult) => promiseResult.status === "rejected"
     );
 
-    if (hasAnyPromiseFailed) {
+    if (failedPromise) {
+      console.log("promiseAllSetteled failed", failedPromise);
       throw new Error("Error During Promise All Setteled");
     }
   } catch (error) {

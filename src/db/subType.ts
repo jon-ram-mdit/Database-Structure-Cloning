@@ -1,5 +1,4 @@
 import { inspect } from "util";
-import { AppDataSource, subTypeLocalMap } from "..";
 import { IPropCatWithProp } from "../modules/products/entities/end-product/BikeDekhoPreBulkUploadStore";
 import { VariantsYears } from "../modules/products/entities/end-product/year";
 import { ProductTypes } from "../modules/products/entities/productType/productTypes";
@@ -19,6 +18,8 @@ import {
   SubTypeTypes,
 } from "../modules/products/entities/sub-type/subType";
 import { getOrCreatePropCat } from "./propCat";
+import { subTypeLocalMap } from "..";
+import { AppDataSource } from "../config/database";
 
 // import { redis } from "..";
 

@@ -1,4 +1,4 @@
-import { AppDataSource } from "..";
+import { AppDataSource } from "../config/database";
 import { ProductPropCat } from "../modules/products/entities/properties/propCat";
 
 const propCatRepo = AppDataSource.getRepository(ProductPropCat);

@@ -1,4 +1,4 @@
-import { AppDataSource } from "..";
+import { AppDataSource } from "../config/database";
 import { BikeDekhoPreBulkUploadStore, IBikeDekhoScrappedVariantDetail } from "../modules/products/entities/end-product/BikeDekhoPreBulkUploadStore";
 import { ModelsVariants } from "../modules/products/entities/end-product/variants";
 import { ProductTypes } from "../modules/products/entities/productType/productTypes";

@@ -1,4 +1,4 @@
-import { AppDataSource } from "..";
+import { AppDataSource } from "../config/database";
 import { subTypeLocalMap } from "..";
 import { ModelsVariants } from "../modules/products/entities/end-product/variants";
 import { VariantsYears } from "../modules/products/entities/end-product/year";

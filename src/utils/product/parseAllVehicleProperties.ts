@@ -1,6 +1,91 @@
 import { VariantsYears } from "../../modules/products/entities/end-product/year";
 import { ProductSubTypes } from "../../modules/products/entities/sub-type/subType";
-import { OuterSpecWithValue } from "../../modules/products/services/responseClasses/outerSpec";
+
+class OuterSpecParent {
+  id: string;
+  name: string;
+  image: string;
+  unit: string;
+  constructor({
+    id,
+    name,
+    imgUrl,
+    unit,
+  }: {
+    id: string;
+    name: string;
+    imgUrl: string;
+    unit?: string;
+  }) {
+    this.id = id;
+    this.name = name;
+    this.image = imgUrl;
+    this.unit = unit ?? null;
+  }
+}
+
+export class ModelIntervalOuterSpec extends OuterSpecParent {
+  minValue: number;
+  maxValue: number;
+  constructor({
+    id,
+    name,
+    imgUrl,
+    unit,
+    value,
+  }: {
+    id: string;
+    name: string;
+    imgUrl: string;
+    unit?: string;
+    value: number;
+  }) {
+    super({ id, name, imgUrl, unit });
+    this.maxValue = value;
+    this.minValue = value;
+  }
+}
+
+export class ModelNonIntervalOuterSpec extends OuterSpecParent {
+  values: string[] = [];
+  constructor({
+    id,
+    name,
+    imgUrl,
+    unit,
+    value,
+  }: {
+    id: string;
+    name: string;
+    imgUrl: string;
+    unit?: string;
+    value: string;
+  }) {
+    super({ id, name, imgUrl, unit });
+    this.values = [];
+    this.values.push(value);
+  }
+}
+
+export class OuterSpecWithValue extends OuterSpecParent {
+  value: number | string;
+  constructor({
+    id,
+    name,
+    imgUrl,
+    unit,
+    value,
+  }: {
+    id: string;
+    name: string;
+    imgUrl: string;
+    unit?: string;
+    value: number | string;
+  }) {
+    super({ id, name, imgUrl, unit });
+    this.value = value;
+  }
+}
 
 export class Property {
   propId: string;

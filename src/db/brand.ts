@@ -1,4 +1,4 @@
-import { AppDataSource } from "..";
+import { AppDataSource } from "../config/database";
 import { ProductBrands } from "../modules/products/entities/end-product/brands";
 
 const brandRepo = AppDataSource.getRepository(ProductBrands);

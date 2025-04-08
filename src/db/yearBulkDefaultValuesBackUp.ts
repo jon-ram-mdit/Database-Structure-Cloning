@@ -2,7 +2,7 @@
 // import { ProductTypes } from "../../modules/products/entities/productType/productTypes";
 // import { IPropCatWithProp } from "../cardekho/variantDetail";
 // import { getOrCreateSubType } from "./subType";
-// import { AppDataSource } from "..";
+// import { AppDataSource } from "../config/database";
 // import { SubTypesPropCat } from "../../modules/products/entities/sub-type/property-category/subTypePropCat";
 // import { SubTypesPropCatIntSpecs } from "../../modules/products/entities/sub-type/property-category/propCatIntSpecs";
 // import { SubTypesPropCatDecimalSpecs } from "../../modules/products/entities/sub-type/property-category/propCatDecimalSpecs";

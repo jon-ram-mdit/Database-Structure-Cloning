@@ -47,6 +47,10 @@ export async function bulkUploadTruckDekhoData() {
       console.log(
         `***** completed uploading all the variants of ${truckDekhoVehicleType.product_type_name} *****`
       );
+    } else {
+      console.log(
+        "No vehicle type to insert truck dekho data with the provided id found. Please insert a valid id for inserting truck dekho data."
+      );
     }
   } catch (error) {
     throw error;

@@ -1,5 +1,5 @@
 import { QueryRunner } from "typeorm";
-import { AppDataSource } from "..";
+import { AppDataSource } from "../config/database";
 import { VariantsYears, YearValuesType } from "../modules/products/entities/end-product/year";
 import { YearOuterDecimalSpecValues } from "../modules/products/entities/end-product/yearOuterValues/yearOuterDecimalSpecValues";
 import { YearOuterIntSpecValues } from "../modules/products/entities/end-product/yearOuterValues/yearOuterIntSpecValues";

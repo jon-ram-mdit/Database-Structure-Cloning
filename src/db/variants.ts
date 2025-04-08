@@ -1,4 +1,4 @@
-import { AppDataSource } from "..";
+import { AppDataSource } from "../config/database";
 import { BrandsModels } from "../modules/products/entities/end-product/models";
 import { ModelsVariants } from "../modules/products/entities/end-product/variants";
 

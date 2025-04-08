@@ -1,4 +1,4 @@
-import { AppDataSource } from "..";
+import { AppDataSource } from "../config/database";
 import { CarPreYearBulkUploadStore, IScrappedVariantDetail } from "../modules/products/entities/end-product/CarPreYearBulkUploadStore";
 import { ModelsVariants } from "../modules/products/entities/end-product/variants";
 

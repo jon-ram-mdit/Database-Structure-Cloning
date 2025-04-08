@@ -1,5 +1,13 @@
 import { In } from "typeorm";
-import { AppDataSource, decSpecMap, defaultTextSpecValueMap, featureMap, intSpecMap, textSpecMap, textSpecValueMap, unitMap } from "..";
+import {
+  decSpecMap,
+  defaultTextSpecValueMap,
+  featureMap,
+  intSpecMap,
+  textSpecMap,
+  textSpecValueMap,
+  unitMap,
+} from "..";
 import * as fs from "fs";
 import { YearValuesType } from "../modules/products/entities/end-product/year";
 import { YearTextSpecValues } from "../modules/products/entities/end-product/yearValues/yearTextSpecValues";
@@ -7,13 +15,15 @@ import { ProductDecimalSpecs } from "../modules/products/entities/properties/dec
 import { ProductFeatures } from "../modules/products/entities/properties/features";
 import { ProductIntSpecs } from "../modules/products/entities/properties/intSpecs";
 import { ProductTextSpecs } from "../modules/products/entities/properties/textSpecs";
-import { ProductTextSpecsValues, TextSpecValueTypes } from "../modules/products/entities/properties/textSpecsValues";
+import {
+  ProductTextSpecsValues,
+  TextSpecValueTypes,
+} from "../modules/products/entities/properties/textSpecsValues";
 import { ProductUnits } from "../modules/products/entities/properties/unit";
+import { AppDataSource } from "../config/database";
 
 const textSpecRepo = AppDataSource.getRepository(ProductTextSpecs);
-const textSpecValueRepo = AppDataSource.getRepository(
-  ProductTextSpecsValues
-);
+const textSpecValueRepo = AppDataSource.getRepository(ProductTextSpecsValues);
 const unitRepo = AppDataSource.getRepository(ProductUnits);
 const intSpecRepo = AppDataSource.getRepository(ProductIntSpecs);
 const decSpecRepo = AppDataSource.getRepository(ProductDecimalSpecs);
@@ -290,25 +300,23 @@ export async function getAllTextSpecWithValues() {
 
 export async function getVehicleTypeTextSpecValues(vehicleTypeId: string) {
   try {
-    const textSpecValues = await yearTextSpecValuesRepo.find(
-      {
-        where: {
-          value_type: YearValuesType.ND,
-          variantYear: {
-            subType: {
-              productType: {
-                product_type_id: vehicleTypeId,
-              }
-            }
+    const textSpecValues = await yearTextSpecValuesRepo.find({
+      where: {
+        value_type: YearValuesType.ND,
+        variantYear: {
+          subType: {
+            productType: {
+              product_type_id: vehicleTypeId,
+            },
           },
         },
-        relations: {
-          value: {
-            textSpec: true,
-          }
-        }
-      }
-    )
+      },
+      relations: {
+        value: {
+          textSpec: true,
+        },
+      },
+    });
 
     let textSpecsSet = new Set<string>();
 
@@ -316,13 +324,11 @@ export async function getVehicleTypeTextSpecValues(vehicleTypeId: string) {
       const textSpecId = value?.value?.textSpec?.product_text_spec_id;
 
       if (textSpecId) {
-
         const isTextSpecPresent = textSpecsSet.has(textSpecId);
         if (!isTextSpecPresent) {
           textSpecsSet.add(textSpecId);
         }
       }
-
     });
 
     const textSpecs = Array.from(textSpecsSet);
@@ -337,16 +343,14 @@ export async function getVehicleTypeTextSpecValues(vehicleTypeId: string) {
           value_type: TextSpecValueTypes.N,
         },
       },
-    })
+    });
 
     fs.writeFileSync(
       "textSpecWithValues.json",
       JSON.stringify(textSpecsWithValues),
       "utf-8"
     );
-
   } catch (error) {
     throw error;
   }
-
 }

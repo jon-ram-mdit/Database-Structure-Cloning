@@ -1,4 +1,4 @@
-import { AppDataSource } from "..";
+import { AppDataSource } from "../config/database";
 import {
   ITruckDekhoPreBulkUploadStoreType,
   TruckDekhoPreBulkUploadStore,

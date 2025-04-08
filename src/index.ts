@@ -10,14 +10,7 @@ import { bulkUploadCarData } from "./Bulk Upload Year/car";
 import { bulkUploadBikeDekhoData } from "./Bulk Upload Year/bikeScooter";
 import { bulkUploadBusDekhoData } from "./Bulk Upload Year/bus";
 import { bulkUploadTruckDekhoData } from "./Bulk Upload Year/truck";
-
-const baseFolder = "src/";
-
-let entitiesArray = [
-  `${baseFolder}/modules/*/entities/*.{ts,js}`,
-  `${baseFolder}/modules/*/entities/*/*.{ts,js}`,
-  `${baseFolder}/modules/*/entities/*/*/*.{ts,js}`,
-];
+import { AppDataSource } from "./config/database";
 
 export let subTypeLocalMap = new Map<string, ILocalSubTypeValue>();
 
@@ -33,16 +26,6 @@ export let decSpecMap = new Map<string, ProductDecimalSpecs>();
 
 export let featureMap = new Map<string, ProductFeatures>();
 
-export const AppDataSource = new DataSource({
-  type: "postgres",
-  host: "localhost",
-  port: 5432,
-  username: "postgres",
-  password: "postgres",
-  database: "upwork_sample_db",
-  synchronize: true,
-  entities: entitiesArray,
-});
 
 AppDataSource.initialize()
   .then(async () => {

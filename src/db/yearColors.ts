@@ -1,4 +1,4 @@
-import { AppDataSource } from "..";
+import { AppDataSource } from "../config/database";
 import { VariantsYears } from "../modules/products/entities/end-product/year";
 import { YearColors } from "../modules/products/entities/end-product/yearColors";
 

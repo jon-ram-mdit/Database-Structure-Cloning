@@ -1,4 +1,4 @@
-import { AppDataSource } from "..";
+import { AppDataSource } from "../config/database";
 import { ProductDecimalSpecs } from "../modules/products/entities/properties/decimalSpecs";
 import { ProductIntSpecs } from "../modules/products/entities/properties/intSpecs";
 import { ProductTextSpecs } from "../modules/products/entities/properties/textSpecs";

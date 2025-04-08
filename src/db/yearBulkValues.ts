@@ -1,5 +1,5 @@
 import { getOrCreateSubType } from "./subType";
-import { AppDataSource } from "..";
+import { AppDataSource } from "../config/database";
 import {
   getDefaultTextSpecValueByName,
   getOrCreateDecSpec,
@@ -55,12 +55,12 @@ import { ProductTypes } from "../modules/products/entities/productType/productTy
 export async function promiseAllSetteled(promises: Promise<any>[]) {
   try {
     const promiseResults = await Promise.allSettled(promises);
-    const hasAnyPromiseFailed = promiseResults.some(
+    const failedPromise = promiseResults.find(
       (promiseResult) => promiseResult.status === "rejected"
     );
 
-    if (hasAnyPromiseFailed) {
-      throw new Error("Error During Promise All Setteled");
+    if (failedPromise) {
+      throw new Error("Error During Promise All Setteled: "+failedPromise.reason );
     }
   } catch (error) {
     throw error;
