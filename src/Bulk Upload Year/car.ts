@@ -4,7 +4,7 @@ import { createVariantYearValues } from "../db/yearBulkValues";
 import { ProductTypes } from "../modules/products/entities/productType/productTypes";
 
 // replace with your car vehicle type id
-export const carVehicleTypeId = "49008929-d060-49ea-9924-4c4601399de2";
+export const carVehicleTypeId = "409477e9-c789-4816-842a-3bd878c9d2bb";
 export let carVehicleType: ProductTypes;
 
 export async function bulkUploadCarData() {

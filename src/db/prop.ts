@@ -63,8 +63,10 @@ export async function getOrCreateTextSpecValue(
   textSpecValueName: string
 ) {
   try {
-    if (textSpecValueMap.has(textSpecValueName)) {
-      return textSpecValueMap.get(textSpecValueName);
+    const textSpecValueKey = textSpec + ":" + textSpecValueName;
+    const existingTextSpecValue = textSpecValueMap.get(textSpecValueKey);
+    if (existingTextSpecValue) {
+      return existingTextSpecValue;
     }
 
     const textSpecValue = await textSpecValueRepo.findOne({
@@ -78,7 +80,7 @@ export async function getOrCreateTextSpecValue(
     });
 
     if (textSpecValue) {
-      textSpecValueMap.set(textSpecValueName, textSpecValue);
+      textSpecValueMap.set(textSpecValueKey, textSpecValue);
       return textSpecValue;
     } else {
       const newTextSpecValue = new ProductTextSpecsValues();
@@ -86,7 +88,8 @@ export async function getOrCreateTextSpecValue(
       newTextSpecValue.value = textSpecValueName;
       newTextSpecValue.value_type = TextSpecValueTypes.N;
       const dbTextSpecValue = await textSpecValueRepo.save(newTextSpecValue);
-      textSpecValueMap.set(textSpecValueName, dbTextSpecValue);
+      textSpecValueMap.set(textSpecValueKey, dbTextSpecValue);
+      return dbTextSpecValue;
     }
   } catch (error) {
     throw error;
@@ -113,6 +116,8 @@ export async function getOrCreateTextSpecWithDefaultValue(name: string) {
         textSpec.name
       );
 
+      textSpecMap.set(name, textSpec);
+      defaultTextSpecValueMap.set(name, defaultTextSpecValue);
       return { textSpec, defaultTextSpecValue };
     } else {
       const newTextSpec = new ProductTextSpecs();

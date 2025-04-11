@@ -60,7 +60,9 @@ export async function promiseAllSetteled(promises: Promise<any>[]) {
     );
 
     if (failedPromise) {
-      throw new Error("Error During Promise All Setteled: "+failedPromise.reason );
+      throw new Error(
+        "Error During Promise All Setteled: " + failedPromise.reason
+      );
     }
   } catch (error) {
     throw error;
