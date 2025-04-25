@@ -63,7 +63,7 @@ export async function getOrCreateTextSpecValue(
   textSpecValueName: string
 ) {
   try {
-    const textSpecValueKey = textSpec + ":" + textSpecValueName;
+    const textSpecValueKey = textSpec.name + ":" + textSpecValueName;
     const existingTextSpecValue = textSpecValueMap.get(textSpecValueKey);
     if (existingTextSpecValue) {
       return existingTextSpecValue;
