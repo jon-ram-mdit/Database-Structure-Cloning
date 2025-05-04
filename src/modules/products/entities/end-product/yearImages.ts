@@ -15,7 +15,7 @@ export class YearImages extends DateTimeAbstract {
   @Column()
   caption: string;
 
-  @Column({default: 0})
+  @Column({ default: 0, type: "smallint" })
   rank: number;
 
   @ManyToOne(
