@@ -15,6 +15,9 @@ export class YearImages extends DateTimeAbstract {
   @Column()
   caption: string;
 
+  @Column({default: 0})
+  rank: number;
+
   @ManyToOne(
     () => ProductTypeImagePropertyCategories,
     (imagePropCat) => imagePropCat.endYearImages

@@ -6,9 +6,9 @@ import { ProductTypes } from "../modules/products/entities/productType/productTy
 export async function bulkUploadBikeDekhoData() {
   try {
     // ** replace with your bike / scooter vehicle type id
-    const scooterVehicleTypeId = "9cf4567c-d111-4164-b7a9-d9705187e522";
+    const scooterVehicleTypeId = "c2dcb5fc-ab2a-4071-a266-ed0ecec3f062";
     
-    const bikeVehicleTypeId = "717c38bb-bdf4-4673-b84c-cc1014dfc6b5";
+    const bikeVehicleTypeId = "01effa96-3555-46be-932f-5c7ac69bd795";
 
     const vehicleTypeId = bikeVehicleTypeId;
 

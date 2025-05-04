@@ -42,7 +42,8 @@ async function insertImageForCategory(
   image: {
     url: string;
     caption: string;
-  }
+  },
+  rank: number
 ) {
   try {
     const existingImage = await yearImagesRepo.findOne({
@@ -63,6 +64,7 @@ async function insertImageForCategory(
       newImage.caption = image.caption;
       newImage.imagePropertyCategory = propCat;
       newImage.endYearVehicle = year;
+      newImage.rank = rank;
       return await yearImagesRepo.save(newImage);
     }
   } catch (error) {
@@ -89,7 +91,8 @@ async function insertYearCategoryImages(
 
     if (imgPropCat) {
       return categoryImage.images.map(
-        async (image) => await insertImageForCategory(year, imgPropCat, image)
+        async (image, index) =>
+          await insertImageForCategory(year, imgPropCat, image, index + 1)
       );
     }
   } catch (error) {
